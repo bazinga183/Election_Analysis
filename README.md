@@ -10,7 +10,7 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 5. Determine the winner of the election based on the popular vote.
 
 ## Resources
-- Data Source: election_results.csv
+- Data Source: [election_results.csv](https://github.com/bazinga183/Election_Analysis/blob/main/Resources/election_results.csv)
 - Software: Python 3.9.6, Visual Studio Code, 1.57.1
 
 ## Summary
@@ -38,6 +38,14 @@ The Colorado Board of Election employee gave further tasks:
 3. Calculate the county with the highest turnout.
 
 ## Challenge Summary
+For the challenge, additional lists and dictionaries were added so that it would also incorporate the counties to be printed in the [election_results.txt](https://github.com/bazinga183/Election_Analysis/blob/main/analysis/election_results.txt) file.
+
+```
+# 1: Create a county list and county votes dictionary.
+county_list = []
+county_voter_turnout = {}
+```
+
 The analysis on the selected counties show that:
 - There were 369,711 votes cast in the election.
 - The counties that took part in the election were:
@@ -50,6 +58,21 @@ The analysis on the selected counties show that:
     - Arapahoe County casted 24,801 votes, which made up 6.7% of the vote.
 The county that had the highest voter turnout was:
   - Denver County who cast 306,055 votes and made up 82.8% of the vote.
+
+This results was obtained by iterating through each county in the data to see which had the highest voter turnout and the highest percentage of the vote.
+
+```
+# 6a: Write a for loop to get the county from the county dictionary.
+    for voting_county in county_voter_turnout:
+
+        # 6b: Retrieve the county vote count.
+        vote_count = county_voter_turnout.get(voting_county)
+
+# 6f: Write an if statement to determine the winning county and get its vote count.
+        if (vote_count > largest_count):
+            largest_count = vote_count
+            largest_county_turnout = voting_county
+```
 
 ![election_results](https://user-images.githubusercontent.com/46951897/125124899-723de880-e0be-11eb-93ce-09ee0d2b5844.PNG)
 
