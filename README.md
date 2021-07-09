@@ -26,6 +26,9 @@ The analysis of the election show that:
   -Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
 - The winner of the election was:
   - Diana DeGette, who received 73.8% of the vote and 272,893 number of votes.
+
+![election_analysis](https://user-images.githubusercontent.com/46951897/125124810-4b7fb200-e0be-11eb-89a0-d96843120c77.PNG)
+
  
 ## Challenge Overview
 The Colorado Board of Election employee gave further tasks:
@@ -47,6 +50,8 @@ The analysis on the selected counties show that:
     - Arapahoe County casted 24,801 votes, which made up 6.7% of the vote.
 The county that had the highest voter turnout was:
   - Denver County who cast 306,055 votes and made up 82.8% of the vote.
+
+![election_results](https://user-images.githubusercontent.com/46951897/125124899-723de880-e0be-11eb-93ce-09ee0d2b5844.PNG)
 
 ## Future Uses of This Code
 This script could potentially be used for future elections, but some nuances can be added if needed.
