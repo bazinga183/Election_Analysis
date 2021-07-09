@@ -15,7 +15,7 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 
 ## Summary
 The analysis of the election show that:
-- There were 369,711 votes casr in the election.
+- There were 369,711 votes cast in the election.
 - The candidates were:
   - Charles Casper Stockham
   - Diana DeGetter
@@ -25,8 +25,30 @@ The analysis of the election show that:
   -Diane DeGette received 73.8% of the vote and 272,893 number of votes.
   -Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
 - The winner of the election was:
-  - Diana DeGette who received 73.8% of the vote and 272,893 number of votes.
+  - Diana DeGette, who received 73.8% of the vote and 272,893 number of votes.
  
 ## Challenge Overview
+The Colorado Board of Election employee gave further tasks:
+
+1. Calculate the voter turnout by county.
+2. Calculate the percentage of votes from each county of the total count.
+3. Calculate the county with the highest turnout.
 
 ## Challenge Summary
+The analysis on the selected counties show that:
+- There were 369,711 votes cast in the election.
+- The counties that took part in the election were:
+    - Jefferson
+    - Denver
+    - Arapahoe
+- The results for the election were:
+    - Jefferson County casted 38,855 votes, which made up 10.5% of the vote.
+    - Denver County casted 306,055 votes, which made up 82.8% of the vote.
+    - Arapahoe County casted 24,801 votes, which made up 6.7% of the vote.
+The county that had the highest voter turnout was:
+  - Denver County who cast 306,055 votes and made up 82.8% of the vote.
+
+## Future Uses of This Code
+This script could potentially be used for future elections, but some nuances can be added if needed.
+- For instance, demographics can be added into the csv file so that each voter has more information that the committee can use for future elections. This would also give more information to future candidates and incumbents for which demographics they could target in the future.
+- Another way to modify the script is to add the percentage of votes in a county that went towards a certain candidate. This would provide more information to the committee for their own database and for candidates/incumbents on which counties they can target during their runnin for office.
